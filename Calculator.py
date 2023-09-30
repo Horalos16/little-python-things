@@ -6,7 +6,8 @@ second_number = int(input())
 result = first_number + second_number
 result_1 = first_number - second_number
 result_2 = first_number * second_number
-result_3 = first_number / second_number
+result_3 = first_number // second_number
+result_3_1 = first_number % second_number 
 if(operator == "-"):    
 	print(first_number, "-", second_number, "=", result_1)
 elif(operator == "+"):
@@ -14,6 +15,6 @@ elif(operator == "+"):
 elif(operator == "*"):
     print(first_number, "*", second_number, "=", result_2)
 elif(operator == "/"):
-	print(first_number, "/", second_number, "=", result_3)
+	print(first_number, "/", second_number, "=", result_3, "  ", result_3_1)
 else:
 	print("Sorry bro these are not numbers.")
